@@ -1,6 +1,6 @@
 import { type AudioState, FileState } from "../types"
 
-const SAMPLE_RATE = 48000;
+const SAMPLE_RATE = 32768;
 const PREC = 10;
 
 const emptyContext = new OfflineAudioContext({ numberOfChannels: 1, sampleRate: SAMPLE_RATE, length: 1 });
